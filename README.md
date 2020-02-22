@@ -5,7 +5,7 @@
 * 文件可以通过NCBI的Batch Entrez下载批量序列的fasta文件，列表文件为accessions_list.seq
 
 ## 所需软件
-* [Clustalo](http://www.clustal.org/omega/), [SimPlot](https://sray.med.som.jhmi.edu/SCRoftware/simplot/),[MEGA-X](https://www.megasoftware.net/), [BioEdit](https://bioedit.software.informer.com/7.2/)
+* **[Clustalo](http://www.clustal.org/omega/), [SimPlot](https://sray.med.som.jhmi.edu/SCRoftware/simplot/), [MEGA-X](https://www.megasoftware.net/), [BioEdit](https://bioedit.software.informer.com/7.2/)**
 
 ## 多重序列比对(Multiple Sequence alignment)
 * The identification of residue–residue correspondences. 
