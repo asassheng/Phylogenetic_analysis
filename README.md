@@ -10,7 +10,7 @@
 ## 多重序列比对(Multiple Sequence alignment)
 * The identification of residue–residue correspondences. 
 	* Clustalo:
-		* Windows Subsystem for Linux(WSL): `clustalo -i input.fasta -o output.fas -v`
+		* Windows Subsystem for Linux (WSL): `clustalo -i input.fasta -o output.fas -v`
 
 
 ## 相似图(Similarity Plot)
@@ -22,15 +22,14 @@
 	* 若对SimPlot生成的图像不满意，想进行调整，可以File->Save Chart Values as CSV 以导出坐标数据，使用其它软件画图
 
 ## 系统进化树(Plylogenetic tree)
-* 系统进化树分析可以对多种类型的序列进行分析
-	在这里，我们重复文献中使用的ORF1a氨基酸序列的系统进化树分析
+* 系统进化树分析可以对多种类型的序列进行分析，在这里，我们重复文献中使用的ORF1a氨基酸序列的系统进化树分析
 * MEGA-X:
 	* 使用“Align”模式打开对齐后的fasta文件;
-	* 根据genbank中beta coronaviruses的信息，ORF1a对应对齐后序列的272-13429（with gaps），删去其余部分，Translate成氨基酸序列;
+	* 根据 genbank 中 beta coronaviruses 的信息，ORF1a对应对齐后序列的272-13429 (with gaps)，删去其余部分，Translate 成氨基酸序列;
 	* 然后Data->Phylogenetic Analysis将所选序列进行分析;
 	* Phylogeny->Construct/Test Maximum Likelihood Tree:
 		* 设定参数（Using the LG model with bootstrap values determined by 1000 replicates.）;
-		    Wait(Can reduce the  number of boostrap replicates to save time while get the similar result.)
+		* Wait (Can reduce the  number of boostrap replicates to save time while get the similar result.)
 
 ## 多重序列可视化
 * BioEdit：
