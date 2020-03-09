@@ -1,18 +1,14 @@
-<font size="5">**目录**</font>
-
-[TOC]
-
 
 <font size="5">**写在最前**</font>
 这个文档记录了我学习的Phylogenetics analysis的内容，这些内容将随着不断的学习不断地更新，而更新的频率就得取决于当时的课业:pear:了。由于刚刚接触这个领域，仅凭刚看的一点内容，对于许多知识还是一知半解，有可能存在错误的地方以及不足，还请大家发现后多多体谅并及时在issue里提出来或者直接在文档里修改后commit。也正因为这个原因，结果分析部分作为一个方法的精髓部分，本文中基本还没有，建议还是先看原文中的作者是如何解释的，这样更加专业。分析部分会待我觉得搞透后再着手。最后，很乐意大家提出一些学术上的问题来一起探讨，在探讨中更加深刻地学习知识。:blush:
 
-++ 注：该Repository中出现的代码均为在**Windows Subsystem for Linux (WSL) - Ubuntu 18.04 LTS**下使用的代码 ++
+注：该Repository中出现的代码均为在**Windows Subsystem for Linux (WSL) - Ubuntu 18.04 LTS**下使用的代码
 
 - - -
 
 # 系统进化分析（Phylogenetics analysis）
 
-* 系统发生学（Phylogenetics）是研究生物进化规律及物种间亲缘关系的学科。学科的基本原则是++产生相似性的原因是共同祖先的存在++。一般的，它根据不同物种、群体、个体或者基因间的差异特征来进而构建系统进化树（Phylogenetic tree）来反映之间可能的关系。经典的系统进化学通过形态学、解剖学、以及地质学（化石）等来反映差异。最经典的例子就是达尔文在加拉帕戈斯群岛在通过观察不同鸟类的形态进而推断其进化关系从而提出自然选择假说。
+* 系统发生学（Phylogenetics）是研究生物进化规律及物种间亲缘关系的学科。学科的基本原则是产生相似性的原因是共同祖先的存在。一般的，它根据不同物种、群体、个体或者基因间的差异特征来进而构建系统进化树（Phylogenetic tree）来反映之间可能的关系。经典的系统进化学通过形态学、解剖学、以及地质学（化石）等来反映差异。最经典的例子就是达尔文在加拉帕戈斯群岛在通过观察不同鸟类的形态进而推断其进化关系从而提出自然选择假说。
 
 * 现在，随着电子信息以及生物实验技术的快速发展，我们能获得到以及处理生物分子数据的能力也大大增强，为进一步探索未知，分子进化分析学毋庸置疑成为了现在主流的研究领域。
 
@@ -46,7 +42,7 @@
 * 表型分类法目前主要有：UPGMA(Unweighted pair group method with arithmetic mean)、Neighbour-joining，两者的区别是Neighbour-joining将不同的进化分支的进化速度进行了加权。
 
 * 谱系分支分类法目前主要有：Maximun parsimony、Maximun likelihood，这两种方法只能用于序列数据。谱系分支分类法的需要考虑可能的进化树随着物种个数增加而指数增长，如果过多的的话将会得出个大概的结果。为了解决这个问题，就需要有检验方法来检验结果，比如Jackknifing和Bootstrapping，常用的是Bootstrap法。
-	* ***++思考：进化树上共同的节点表示的是什么？++***
+	* ***思考：进化树上共同的节点表示的是什么？***
 
 
 * [**例子**](./example/phylogenetic_tree.md)
@@ -58,7 +54,7 @@
 * [**例子**](./example/visualization_1.md)
 
 #### 系统进化树可视化
-* 虽然MEGA能够将生成的系统进化树可视化，但是只具有简单的调整功能，如果需要添加有关树的注释信息则需要用到其它专门的可视化软件。在树的可视化里，最基础的是添加树的注释信息的静态图像，这些像**[Figtree](http://tree.bio.ed.ac.uk/software/figtree/)、[iTOL](https://itol.embl.de/)、[ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html)**(R package)等可以轻易做到。而更高级的是现在流行的可交互式的可视化，能够将注释信息附加到其它元件，并于其它图形相互搭配，可交互式的图像一般是由JavaScript编写的，比如**[figtree.js](https://github.com/rambaut/figtree.js/blob/master/README.md)、[PhyD3](https://phyd3.bits.vib.be/documentation.html)**等。
+* 虽然MEGA能够将生成的系统进化树可视化，但是只具有简单的调整功能，如果需要添加有关树的注释信息则需要用到其它专门的可视化软件。在树的可视化里，最基础的是添加树的注释信息的静态图像，这些像[**Figtree**](http://tree.bio.ed.ac.uk/software/figtree/)、[**iTOL**](https://itol.embl.de/)、[**ggtree**](https://bioconductor.org/packages/release/bioc/html/ggtree.html)(R package)等可以轻易做到。而更高级的是现在流行的可交互式的可视化，能够将注释信息附加到其它元件，并于其它图形相互搭配，可交互式的图像一般是由JavaScript编写的，比如[**figtree.js**](https://github.com/rambaut/figtree.js/blob/master/README.md)、[**PhyD3**](https://phyd3.bits.vib.be/documentation.html)等。
 
 * 树的表示类型主要有4种，分别为RECTANGULAR、RADIAL、UNROOTED、CLOCK，其中CLOCK需要有时间的注释才能完成
 
