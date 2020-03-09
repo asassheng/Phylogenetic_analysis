@@ -1,0 +1,82 @@
+{
+  "title": "Genomic epidemiology of 2019-nCoV",
+  "colorings": [
+    {
+      "key": "Location",
+      "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "Division",
+      "title": "Admin division",
+      "type": "categorical"
+    },
+    {
+      "key": "Country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "Host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "QC",
+      "title": "QC",
+      "type": "categorical"
+    },
+    {
+      "key": "Sample_Collect_Lab",
+      "title": "Sample Collect Lab",
+      "type": "categorical"
+    },
+    {
+      "key": "Submit_Lab",
+      "title": "Submitting Lab",
+      "type": "categorical"
+    },
+	{
+      "key": "Submit_date",
+      "title": "Submitting Date",
+      "type": "categorical"
+    },
+	{
+      "key": "Data_source",
+      "title": "Data source",
+      "type": "categorical"
+    },
+    {
+      "key": "ID",
+	  "title": "ID",
+      "type": "categorical"
+    },
+    {
+      "key": "Relative_ID",
+	  "title": "Relative_ID",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "Location",
+    "Division",
+    "Country"
+  ],
+  "display_defaults": {
+    "color_by": "Country",
+    "distance_measure": "div",
+    "geo_resolution": "Country",
+    "map_triplicate": true
+  },
+  "filters": [
+    "Location",
+    "Division",
+    "Country",
+    "Submit_date"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

@@ -1,0 +1,3168 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "Location",
+        "title": "Location",
+        "type": "categorical"
+      },
+      {
+        "key": "Division",
+        "title": "Admin division",
+        "type": "categorical"
+      },
+      {
+        "key": "Country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "Host",
+        "title": "Host",
+        "type": "categorical"
+      },
+      {
+        "key": "QC",
+        "title": "QC",
+        "type": "categorical"
+      },
+      {
+        "key": "Sample_Collect_Lab",
+        "title": "Sample Collect Lab",
+        "type": "categorical"
+      },
+      {
+        "key": "Submit_Lab",
+        "title": "Submitting Lab",
+        "type": "categorical"
+      },
+      {
+        "key": "Submit_date",
+        "title": "Submitting Date",
+        "type": "categorical"
+      },
+      {
+        "key": "Data_source",
+        "title": "Data source",
+        "type": "categorical"
+      },
+      {
+        "key": "ID",
+        "title": "ID",
+        "type": "categorical"
+      },
+      {
+        "key": "Relative_ID",
+        "title": "Relative_ID",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "Country",
+      "distance_measure": "div",
+      "geo_resolution": "Country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "Location",
+      "Division",
+      "Country",
+      "Submit_date"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF10": {
+        "end": 29674,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "orf1ab": {
+        "end": 21555,
+        "seqid": "data/phylodynamic_reference.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Aichi": {
+            "latitude": 34.9991645,
+            "longitude": 137.254574
+          },
+          "Beijing": {
+            "latitude": 39.9289,
+            "longitude": 116.3883
+          },
+          "Brazil": {
+            "latitude": 39.5232,
+            "longitude": -87.1243
+          },
+          "California": {
+            "latitude": 38.2969,
+            "longitude": -76.495
+          },
+          "Clayton": {
+            "latitude": 38.6444,
+            "longitude": -90.3303
+          },
+          "Illinois": {
+            "latitude": 40.079660600000004,
+            "longitude": -89.4337288
+          },
+          "Kathmandu": {
+            "latitude": 27.7167,
+            "longitude": 85.3166
+          },
+          "Kyoto": {
+            "latitude": 35.03,
+            "longitude": 135.75
+          },
+          "Los Angeles": {
+            "latitude": 34.1139,
+            "longitude": -118.4068
+          },
+          "Orange County": {
+            "latitude": 33.717471999999994,
+            "longitude": -117.83114599999999
+          },
+          "Phoenix": {
+            "latitude": 33.5722,
+            "longitude": -112.0891
+          },
+          "Snohomish County": {
+            "latitude": 48.007473600000004,
+            "longitude": -121.7304882
+          },
+          "Solano": {
+            "latitude": 35.948349,
+            "longitude": -104.00502
+          },
+          "Taipei": {
+            "latitude": 25.0358,
+            "longitude": 121.5683
+          },
+          "Texas": {
+            "latitude": 30.8547153,
+            "longitude": -109.0882896
+          },
+          "Tokyo": {
+            "latitude": 35.685,
+            "longitude": 139.7514
+          },
+          "Washington": {
+            "latitude": 38.9047,
+            "longitude": -77.0163
+          },
+          "Wisconsin": {
+            "latitude": 43.784439,
+            "longitude": -88.787865
+          },
+          "Wuhan": {
+            "latitude": 30.58,
+            "longitude": 114.27
+          },
+          "Yunnan": {
+            "latitude": 25.045806,
+            "longitude": 102.710002
+          }
+        },
+        "key": "Location"
+      },
+      {
+        "demes": {
+          "Aichi": {
+            "latitude": 34.9991645,
+            "longitude": 137.254574
+          },
+          "Arizona": {
+            "latitude": 34.395342,
+            "longitude": -111.76327549999999
+          },
+          "Beijing": {
+            "latitude": 39.9289,
+            "longitude": 116.3883
+          },
+          "Brazil": {
+            "latitude": 39.5232,
+            "longitude": -87.1243
+          },
+          "California": {
+            "latitude": 38.2969,
+            "longitude": -76.495
+          },
+          "Hubei": {
+            "latitude": 31.095477000000002,
+            "longitude": 112.676644
+          },
+          "Illinois": {
+            "latitude": 40.079660600000004,
+            "longitude": -89.4337288
+          },
+          "Kathmandu": {
+            "latitude": 27.7167,
+            "longitude": 85.3166
+          },
+          "Kyoto": {
+            "latitude": 35.03,
+            "longitude": 135.75
+          },
+          "Taiwan": {
+            "latitude": 23.69781,
+            "longitude": 120.960515
+          },
+          "Texas": {
+            "latitude": 30.8547153,
+            "longitude": -109.0882896
+          },
+          "Tokyo": {
+            "latitude": 35.685,
+            "longitude": 139.7514
+          },
+          "Victoria": {
+            "latitude": -4.6166,
+            "longitude": 55.45
+          },
+          "Washington": {
+            "latitude": 38.9047,
+            "longitude": -77.0163
+          },
+          "Wisconsin": {
+            "latitude": 43.784439,
+            "longitude": -88.787865
+          },
+          "Yunnan": {
+            "latitude": 25.045806,
+            "longitude": 102.710002
+          }
+        },
+        "key": "Division"
+      },
+      {
+        "demes": {
+          "Australia": {
+            "latitude": -25.274398,
+            "longitude": 133.775136
+          },
+          "Brazil": {
+            "latitude": 39.5232,
+            "longitude": -87.1243
+          },
+          "China": {
+            "latitude": 35.86166,
+            "longitude": 104.195397
+          },
+          "Japan": {
+            "latitude": 36.204824,
+            "longitude": 138.252924
+          },
+          "Nepal": {
+            "latitude": 28.394857,
+            "longitude": 84.12400799999998
+          },
+          "United States": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458825
+          }
+        },
+        "key": "Country"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Genomic epidemiology of 2019-nCoV",
+    "updated": "2020-03-08"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "orf1ab: L2235I, N3833K"
+          },
+          "mutations": {
+            "nuc": [
+              "C6968A",
+              "T11764A"
+            ],
+            "orf1ab": [
+              "L2235I",
+              "N3833K"
+            ]
+          }
+        },
+        "name": "BetaCoV/Wuhan/WH-01/2019",
+        "node_attrs": {
+          "Country": {
+            "value": "China"
+          },
+          "Data_source": {
+            "value": "CNGBdb"
+          },
+          "Division": {
+            "value": "Hubei"
+          },
+          "Host": {
+            "value": "Homo sapiens"
+          },
+          "ID": {
+            "value": "CNA0007332"
+          },
+          "Location": {
+            "value": "Wuhan"
+          },
+          "QC": {
+            "value": "0/0/2/0/NO"
+          },
+          "Relative_ID": {
+            "value": "LR757998, EPI_ISL_406798, NMDC60013002-01"
+          },
+          "Sample_Collect_Lab": {
+            "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+          },
+          "Submit_Lab": {
+            "value": "BGI PathoGenesis Pharmaceutical Technology Co., Ltd; China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention"
+          },
+          "Submit_date": {
+            "value": "2020-01-30"
+          },
+          "div": 1.9999583570490629,
+          "num_date": {
+            "confidence": [
+              2019.9849315068493,
+              2019.9849315068493
+            ],
+            "value": 2019.9849315068493
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A29869C",
+                  "C29870A"
+                ]
+              }
+            },
+            "name": "BetaCoV/Wuhan/YS8011/2020",
+            "node_attrs": {
+              "Country": {
+                "value": "China"
+              },
+              "Data_source": {
+                "value": "NMDC"
+              },
+              "Division": {
+                "value": "Hubei"
+              },
+              "Host": {
+                "value": "Homo sapiens"
+              },
+              "ID": {
+                "value": "NMDC60013002-07"
+              },
+              "Location": {
+                "value": "Wuhan"
+              },
+              "QC": {
+                "value": "2/0/1/1/NO"
+              },
+              "Submit_Lab": {
+                "value": "China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention; BGI PathoGenesis Pharmaceutical Technology Co., Ltd"
+              },
+              "Submit_date": {
+                "value": "2020-01-28"
+              },
+              "div": 1.9999011997779101,
+              "num_date": {
+                "confidence": [
+                  2020.0177595628415,
+                  2020.0177595628415
+                ],
+                "value": 2020.0177595628415
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF7a: P34S"
+              },
+              "mutations": {
+                "ORF7a": [
+                  "P34S"
+                ],
+                "nuc": [
+                  "C27493T",
+                  "C28253T"
+                ]
+              }
+            },
+            "name": "BetaCoV/Wuhan/WH19004/2020",
+            "node_attrs": {
+              "Country": {
+                "value": "China"
+              },
+              "Data_source": {
+                "value": "NMDC"
+              },
+              "Division": {
+                "value": "Hubei"
+              },
+              "Host": {
+                "value": "Homo sapiens"
+              },
+              "ID": {
+                "value": "NMDC60013002-09"
+              },
+              "Location": {
+                "value": "Wuhan"
+              },
+              "QC": {
+                "value": "0/0/2/0/NO"
+              },
+              "Submit_Lab": {
+                "value": "China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention; BGI PathoGenesis Pharmaceutical Technology Co., Ltd"
+              },
+              "Submit_date": {
+                "value": "2020-01-28"
+              },
+              "div": 1.9998681214650178,
+              "num_date": {
+                "confidence": [
+                  2020.0013661202186,
+                  2020.0013661202186
+                ],
+                "value": 2020.0013661202186
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G20670A",
+                  "G20679A"
+                ]
+              }
+            },
+            "name": "BetaCoV/Wuhan/WH19005/2019",
+            "node_attrs": {
+              "Country": {
+                "value": "China"
+              },
+              "Data_source": {
+                "value": "NMDC"
+              },
+              "Division": {
+                "value": "Hubei"
+              },
+              "Host": {
+                "value": "Homo sapiens"
+              },
+              "ID": {
+                "value": "NMDC60013002-10"
+              },
+              "Location": {
+                "value": "Wuhan"
+              },
+              "QC": {
+                "value": "0/0/2/0/NO"
+              },
+              "Submit_Lab": {
+                "value": "China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention; BGI PathoGenesis Pharmaceutical Technology Co., Ltd"
+              },
+              "Submit_date": {
+                "value": "2020-01-28"
+              },
+              "div": 1.9998592832930586,
+              "num_date": {
+                "confidence": [
+                  2019.995890410959,
+                  2019.995890410959
+                ],
+                "value": 2019.995890410959
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "N: P344S; ORF3a: L140V; orf1ab: E3764D"
+              },
+              "mutations": {
+                "N": [
+                  "P344S"
+                ],
+                "ORF3a": [
+                  "L140V"
+                ],
+                "nuc": [
+                  "G11557T",
+                  "C15324T",
+                  "C25810G",
+                  "C29303T"
+                ],
+                "orf1ab": [
+                  "E3764D"
+                ]
+              }
+            },
+            "name": "2019-nCoV/Japan/KY/V-029/2020",
+            "node_attrs": {
+              "Country": {
+                "value": "Japan"
+              },
+              "Data_source": {
+                "value": "GenBank"
+              },
+              "Division": {
+                "value": "Kyoto"
+              },
+              "Host": {
+                "value": "Homo sapiens"
+              },
+              "ID": {
+                "value": "LC522972"
+              },
+              "Location": {
+                "value": "Kyoto"
+              },
+              "QC": {
+                "value": "0/0/4/0/NO"
+              },
+              "Relative_ID": {
+                "value": "EPI_ISL_408669"
+              },
+              "Sample_Collect_Lab": {
+                "value": "Dept. of Virology III, National Institute of Infectious Diseases"
+              },
+              "Submit_Lab": {
+                "value": "Pathogen Genomics Center, National Institute of Infectious Diseases"
+              },
+              "Submit_date": {
+                "value": "2020-02-10"
+              },
+              "div": 4.000103934812867,
+              "num_date": {
+                "confidence": [
+                  2020.077868852459,
+                  2020.077868852459
+                ],
+                "value": 2020.077868852459
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "name": "MN908947.3",
+            "node_attrs": {
+              "div": 1.6059233487805653e-13,
+              "num_date": {
+                "confidence": [
+                  2017.6644901027303,
+                  2041.2247417415895
+                ],
+                "value": 2019.9772946735352
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A24325G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "2019-nCoV/USA-CA8/2020",
+                "node_attrs": {
+                  "Country": {
+                    "value": "United States"
+                  },
+                  "Data_source": {
+                    "value": "GenBank"
+                  },
+                  "Division": {
+                    "value": "California"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MT106053"
+                  },
+                  "Location": {
+                    "value": "California"
+                  },
+                  "QC": {
+                    "value": "0/0/1/0/NO"
+                  },
+                  "Relative_ID": {
+                    "value": "EPI_ISL_411955"
+                  },
+                  "Sample_Collect_Lab": {
+                    "value": "California Department of Public Health"
+                  },
+                  "Submit_Lab": {
+                    "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                  },
+                  "Submit_date": {
+                    "value": "2020-02-22"
+                  },
+                  "div": 0.9998953679659314,
+                  "num_date": {
+                    "confidence": [
+                      2020.110655737705,
+                      2020.110655737705
+                    ],
+                    "value": 2020.110655737705
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "BetaCoV/Wuhan/WH19008/2019",
+                "node_attrs": {
+                  "Country": {
+                    "value": "China"
+                  },
+                  "Data_source": {
+                    "value": "NMDC"
+                  },
+                  "Division": {
+                    "value": "Hubei"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "NMDC60013002-06"
+                  },
+                  "Location": {
+                    "value": "Wuhan"
+                  },
+                  "QC": {
+                    "value": "0/0/1/0/NO"
+                  },
+                  "Submit_Lab": {
+                    "value": "China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention; BGI PathoGenesis Pharmaceutical Technology Co., Ltd"
+                  },
+                  "Submit_date": {
+                    "value": "2020-01-28"
+                  },
+                  "div": 0.9998953679659314,
+                  "num_date": {
+                    "confidence": [
+                      2019.995890410959,
+                      2019.995890410959
+                    ],
+                    "value": 2019.995890410959
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000037",
+            "node_attrs": {
+              "div": 0.9998953679659314,
+              "num_date": {
+                "confidence": [
+                  2019.9773454690448,
+                  2019.995890410959
+                ],
+                "value": 2019.995890410959
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "N: S194L; orf1ab: A117T, I1607V"
+              },
+              "mutations": {
+                "N": [
+                  "S194L"
+                ],
+                "nuc": [
+                  "G614A",
+                  "A5084G",
+                  "C28854T"
+                ],
+                "orf1ab": [
+                  "A117T",
+                  "I1607V"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "2019-nCoV/USA-CA3/2020",
+                "node_attrs": {
+                  "Country": {
+                    "value": "United States"
+                  },
+                  "Data_source": {
+                    "value": "GenBank"
+                  },
+                  "Division": {
+                    "value": "California"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MT027062"
+                  },
+                  "Location": {
+                    "value": "California"
+                  },
+                  "QC": {
+                    "value": "0/0/3/0/NO"
+                  },
+                  "Relative_ID": {
+                    "value": "EPI_ISL_408008"
+                  },
+                  "Sample_Collect_Lab": {
+                    "value": "California Department of Health"
+                  },
+                  "Submit_Lab": {
+                    "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                  },
+                  "Submit_date": {
+                    "value": "2020-02-06"
+                  },
+                  "div": 2.999849163082769,
+                  "num_date": {
+                    "confidence": [
+                      2020.077868852459,
+                      2020.077868852459
+                    ],
+                    "value": 2020.077868852459
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "2019-nCoV/USA-CA4/2020",
+                "node_attrs": {
+                  "Country": {
+                    "value": "United States"
+                  },
+                  "Data_source": {
+                    "value": "GenBank"
+                  },
+                  "Division": {
+                    "value": "California"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MT027063"
+                  },
+                  "Location": {
+                    "value": "California"
+                  },
+                  "QC": {
+                    "value": "0/0/3/0/NO"
+                  },
+                  "Relative_ID": {
+                    "value": "EPI_ISL_408009"
+                  },
+                  "Sample_Collect_Lab": {
+                    "value": "California Department of Health"
+                  },
+                  "Submit_Lab": {
+                    "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                  },
+                  "Submit_date": {
+                    "value": "2020-02-06"
+                  },
+                  "div": 2.999849163082769,
+                  "num_date": {
+                    "confidence": [
+                      2020.077868852459,
+                      2020.077868852459
+                    ],
+                    "value": 2020.077868852459
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000040",
+            "node_attrs": {
+              "div": 2.999849163082769,
+              "num_date": {
+                "confidence": [
+                  2020.0449142550722,
+                  2020.077868852459
+                ],
+                "value": 2020.067081284484
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF3a: G251V"
+              },
+              "mutations": {
+                "ORF3a": [
+                  "G251V"
+                ],
+                "nuc": [
+                  "G26144T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "S: S247R"
+                  },
+                  "mutations": {
+                    "S": [
+                      "S247R"
+                    ],
+                    "nuc": [
+                      "T19065C",
+                      "T22303G"
+                    ]
+                  }
+                },
+                "name": "BetaCoV/Australia/VIC01/2020",
+                "node_attrs": {
+                  "Country": {
+                    "value": "Australia"
+                  },
+                  "Data_source": {
+                    "value": "GenBank"
+                  },
+                  "Division": {
+                    "value": "Victoria"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MT007544"
+                  },
+                  "Location": {
+                    "value": "Clayton"
+                  },
+                  "QC": {
+                    "value": "0/0/4/1/NO"
+                  },
+                  "Relative_ID": {
+                    "value": "EPI_ISL_406844"
+                  },
+                  "Sample_Collect_Lab": {
+                    "value": "Monash Medical Centre"
+                  },
+                  "Submit_Lab": {
+                    "value": "Department of Microbiology and Immunology, The University of Melbourne at The Peter Doherty Institute for Infection and Immunity"
+                  },
+                  "Submit_date": {
+                    "value": "2020-01-31"
+                  },
+                  "div": 2.999736543533024,
+                  "num_date": {
+                    "confidence": [
+                      2020.0669398907103,
+                      2020.0669398907103
+                    ],
+                    "value": 2020.0669398907103
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "orf1ab: T5579I"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "C17000T"
+                    ],
+                    "orf1ab": [
+                      "T5579I"
+                    ]
+                  }
+                },
+                "name": "2019-nCoV/USA-CA2/2020",
+                "node_attrs": {
+                  "Country": {
+                    "value": "United States"
+                  },
+                  "Data_source": {
+                    "value": "GenBank"
+                  },
+                  "Division": {
+                    "value": "California"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MN994468"
+                  },
+                  "Location": {
+                    "value": "Orange County"
+                  },
+                  "QC": {
+                    "value": "0/0/2/0/NO"
+                  },
+                  "Relative_ID": {
+                    "value": "EPI_ISL_406036"
+                  },
+                  "Sample_Collect_Lab": {
+                    "value": "California Department of Public Health"
+                  },
+                  "Submit_Lab": {
+                    "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                  },
+                  "Submit_date": {
+                    "value": "2020-01-27"
+                  },
+                  "div": 1.9998042050649802,
+                  "num_date": {
+                    "confidence": [
+                      2020.058743169399,
+                      2020.058743169399
+                    ],
+                    "value": 2020.058743169399
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "orf1ab: L3606F"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "G11083T",
+                      "C14805T",
+                      "T17247C"
+                    ],
+                    "orf1ab": [
+                      "L3606F"
+                    ]
+                  }
+                },
+                "name": "SARS-CoV-2/SP02/human/2020/BRA",
+                "node_attrs": {
+                  "Country": {
+                    "value": "Brazil"
+                  },
+                  "Data_source": {
+                    "value": "Genbank"
+                  },
+                  "Division": {
+                    "value": "Brazil"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MT126808"
+                  },
+                  "Location": {
+                    "value": "Brazil"
+                  },
+                  "QC": {
+                    "value": "0/0/4/0/NO"
+                  },
+                  "Submit_Lab": {
+                    "value": "Hospital Israelita Albert Einstein"
+                  },
+                  "Submit_date": {
+                    "value": "2020-03-01"
+                  },
+                  "div": 3.9997194214302194,
+                  "num_date": {
+                    "confidence": [
+                      2020.1598360655737,
+                      2020.1598360655737
+                    ],
+                    "value": 2020.1598360655737
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000022",
+            "node_attrs": {
+              "div": 0.9999052334776296,
+              "num_date": {
+                "confidence": [
+                  2019.9769554266563,
+                  2020.0123118607103
+                ],
+                "value": 2019.9958453610288
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "BetaCoV/Wuhan/WH19001/2019",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "China"
+                          },
+                          "Data_source": {
+                            "value": "NMDC"
+                          },
+                          "Division": {
+                            "value": "Hubei"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "NMDC60013002-08"
+                          },
+                          "Location": {
+                            "value": "Wuhan"
+                          },
+                          "QC": {
+                            "value": "0/0/0/0/NO"
+                          },
+                          "Submit_Lab": {
+                            "value": "China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention; BGI PathoGenesis Pharmaceutical Technology Co., Ltd"
+                          },
+                          "Submit_date": {
+                            "value": "2020-01-28"
+                          },
+                          "div": 4.0148083719514133e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.995890410959,
+                              2019.995890410959
+                            ],
+                            "value": 2019.995890410959
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "Wuhan-Hu-1",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "China"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Hubei"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "MN908947"
+                          },
+                          "Location": {
+                            "value": "Wuhan"
+                          },
+                          "Relative_ID": {
+                            "value": "NC_045512, EPI_ISL_402125"
+                          },
+                          "Submit_Lab": {
+                            "value": "Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China"
+                          },
+                          "Submit_date": {
+                            "value": "2020-01-17"
+                          },
+                          "div": 4.0148083719514133e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.995890410959,
+                              2019.995890410959
+                            ],
+                            "value": 2019.995890410959
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000008",
+                    "node_attrs": {
+                      "div": 3.2118466975611307e-13,
+                      "num_date": {
+                        "confidence": [
+                          2019.9896659465023,
+                          2019.995890410959
+                        ],
+                        "value": 2019.995890410959
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: H49Y; orf1ab: T609I"
+                          },
+                          "mutations": {
+                            "S": [
+                              "H49Y"
+                            ],
+                            "nuc": [
+                              "C2091T",
+                              "C21707T"
+                            ],
+                            "orf1ab": [
+                              "T609I"
+                            ]
+                          }
+                        },
+                        "name": "2019-nCoV/USA-CA5/2020",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "United States"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "California"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "MT027064"
+                          },
+                          "Location": {
+                            "value": "California"
+                          },
+                          "QC": {
+                            "value": "0/0/2/0/NO"
+                          },
+                          "Relative_ID": {
+                            "value": "EPI_ISL_408010"
+                          },
+                          "Sample_Collect_Lab": {
+                            "value": "California Department of Health"
+                          },
+                          "Submit_Lab": {
+                            "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                          },
+                          "Submit_date": {
+                            "value": "2020-02-06"
+                          },
+                          "div": 1.9998681214652585,
+                          "num_date": {
+                            "confidence": [
+                              2020.077868852459,
+                              2020.077868852459
+                            ],
+                            "value": 2020.077868852459
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: A3220V"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C9924T"
+                                ],
+                                "orf1ab": [
+                                  "A3220V"
+                                ]
+                              }
+                            },
+                            "name": "2019-nCoV/USA-CA9/2020",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "United States"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "California"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT118835"
+                              },
+                              "Location": {
+                                "value": "Solano"
+                              },
+                              "QC": {
+                                "value": "0/0/1/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_412862"
+                              },
+                              "Submit_Lab": {
+                                "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                              },
+                              "Submit_date": {
+                                "value": "2020-02-27"
+                              },
+                              "div": 0.9999044877459128,
+                              "num_date": {
+                                "confidence": [
+                                  2020.146174863388,
+                                  2020.146174863388
+                                ],
+                                "value": 2020.146174863388
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "SARS-CoV-2/CA6/human/2020/USA",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "United States"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "California"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT044258"
+                              },
+                              "Location": {
+                                "value": "California"
+                              },
+                              "QC": {
+                                "value": "0/0/2/2/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_410044"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "California Department of Public Health"
+                              },
+                              "Submit_Lab": {
+                                "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                              },
+                              "Submit_date": {
+                                "value": "2020-02-11"
+                              },
+                              "div": 4.817770046341696e-13,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0724043715848,
+                                  2020.0724043715848
+                                ],
+                                "value": 2020.0724043715848
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000011",
+                        "node_attrs": {
+                          "div": 4.0148083719514133e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.9743842431276,
+                              2020.0724043715848
+                            ],
+                            "value": 2020.0653218721027
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "div": 3.2118466975611307e-13,
+                      "num_date": {
+                        "confidence": [
+                          2019.9822675889488,
+                          2020.0327832916396
+                        ],
+                        "value": 2019.9910647260479
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 2.408885023170848e-13,
+                  "num_date": {
+                    "confidence": [
+                      2019.9742719730762,
+                      2019.9931478089313
+                    ],
+                    "value": 2019.9904052069037
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "orf1ab: P6083L"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C1912T",
+                              "C18512T"
+                            ],
+                            "orf1ab": [
+                              "P6083L"
+                            ]
+                          }
+                        },
+                        "name": "BetaCoV/Japan/AI/I-004/2020",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "Japan"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Aichi"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "LC521925"
+                          },
+                          "Location": {
+                            "value": "Aichi"
+                          },
+                          "QC": {
+                            "value": "0/0/3/1/NO"
+                          },
+                          "Relative_ID": {
+                            "value": "EPI_ISL_407084"
+                          },
+                          "Sample_Collect_Lab": {
+                            "value": "Department of Virology III, National Institute of Infectious Diseases"
+                          },
+                          "Submit_Lab": {
+                            "value": "Pathogen Genomics Center, National Institute of Infectious Diseases"
+                          },
+                          "Submit_date": {
+                            "value": "2020-02-04"
+                          },
+                          "div": 1.9998681214652585,
+                          "num_date": {
+                            "confidence": [
+                              2020.0669398907103,
+                              2020.0669398907103
+                            ],
+                            "value": 2020.0669398907103
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: H3076Y"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "A9034G",
+                                  "C9491T"
+                                ],
+                                "orf1ab": [
+                                  "H3076Y"
+                                ]
+                              }
+                            },
+                            "name": "BetaCov/Taiwan/NTU02/2020",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "China"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Taiwan"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT066176"
+                              },
+                              "Location": {
+                                "value": "Taipei"
+                              },
+                              "QC": {
+                                "value": "0/0/2/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_410218"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "Department of Laboratory Medicine, National Taiwan University Hospital"
+                              },
+                              "Submit_Lab": {
+                                "value": "Microbial Genomics Core Lab, National Taiwan University Centers of Genomic and Precision Medicine"
+                              },
+                              "Submit_date": {
+                                "value": "2020-02-13"
+                              },
+                              "div": 1.9998452170702836,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0969945355191,
+                                  2020.0969945355191
+                                ],
+                                "value": 2020.0969945355191
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C24034T"
+                                ]
+                              }
+                            },
+                            "name": "SARS0CoV-2/61-TW/human/2020/_NPL",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "Nepal"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Kathmandu"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT072688"
+                              },
+                              "Location": {
+                                "value": "Kathmandu"
+                              },
+                              "QC": {
+                                "value": "0/0/1/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_410301"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "National Influenza Centre, National Public health Laboratory, Kathmandu, Nepal"
+                              },
+                              "Submit_Lab": {
+                                "value": "The University of Hong Kong"
+                              },
+                              "Submit_date": {
+                                "value": "2020-02-14"
+                              },
+                              "div": 0.9999792925197291,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0341530054645,
+                                  2020.0341530054645
+                                ],
+                                "value": 2020.0341530054645
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "div": 4.0148083719514133e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.9879170944243,
+                              2020.0194136310831
+                            ],
+                            "value": 2020.0037900477373
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "div": 3.2118466975611307e-13,
+                      "num_date": {
+                        "confidence": [
+                          2019.979073149792,
+                          2020.007094594544
+                        ],
+                        "value": 2019.9911861675205
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "2019-nCoV_WHU02",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "China"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Hubei"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MN988669"
+                              },
+                              "Location": {
+                                "value": "Wuhan"
+                              },
+                              "QC": {
+                                "value": "0/0/0/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_406717"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "State Key Laboratory of Virology, Wuhan University"
+                              },
+                              "Submit_Lab": {
+                                "value": "State Key Laboratory of Virology, Wuhan University"
+                              },
+                              "Submit_date": {
+                                "value": "2020-01-23"
+                              },
+                              "div": 4.817770046341696e-13,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0040983606557,
+                                  2020.0040983606557
+                                ],
+                                "value": 2020.0040983606557
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "2019-nCoV_WHU01",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "China"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Hubei"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MN988668"
+                              },
+                              "Location": {
+                                "value": "Wuhan"
+                              },
+                              "QC": {
+                                "value": "0/0/0/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_406716"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "State Key Laboratory of Virology, Wuhan University"
+                              },
+                              "Submit_Lab": {
+                                "value": "State Key Laboratory of Virology, Wuhan University"
+                              },
+                              "Submit_date": {
+                                "value": "2020-01-23"
+                              },
+                              "div": 4.817770046341696e-13,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0040983606557,
+                                  2020.0040983606557
+                                ],
+                                "value": 2020.0040983606557
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000018",
+                        "node_attrs": {
+                          "div": 4.0148083719514133e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.9909638047118,
+                              2020.0040983606557
+                            ],
+                            "value": 2019.9987045766682
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C17373T"
+                                ]
+                              }
+                            },
+                            "name": "2019-nCoV/USA-WI1/2020",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "United States"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Wisconsin"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT039887"
+                              },
+                              "Location": {
+                                "value": "Wisconsin"
+                              },
+                              "QC": {
+                                "value": "0/0/2/1/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_408670"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "Wisconsin Department of Health Services"
+                              },
+                              "Submit_Lab": {
+                                "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                              },
+                              "Submit_date": {
+                                "value": "2020-02-10"
+                              },
+                              "div": 0.9999044877459128,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0833333333333,
+                                  2020.0833333333333
+                                ],
+                                "value": 2020.0833333333333
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "BetaCoV/Wuhan/WH-03/2019",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "China"
+                              },
+                              "Data_source": {
+                                "value": "CNGBdb"
+                              },
+                              "Division": {
+                                "value": "Hubei"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "CNA0007334"
+                              },
+                              "Location": {
+                                "value": "Wuhan"
+                              },
+                              "QC": {
+                                "value": "0/0/0/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "LR757996, EPI_ISL_406800, NMDC60013002-03"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+                              },
+                              "Submit_Lab": {
+                                "value": "BGI PathoGenesis Pharmaceutical Technology Co., Ltd; China CDC; Shandong First Medical University & Shandong Academy of Medical Sciences; Hubei Provincial Center for Disease Control and Prevention"
+                              },
+                              "Submit_date": {
+                                "value": "2020-01-30"
+                              },
+                              "div": 4.817770046341696e-13,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0013661202186,
+                                  2020.0013661202186
+                                ],
+                                "value": 2020.0013661202186
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000019",
+                        "node_attrs": {
+                          "div": 4.0148083719514133e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.989495727313,
+                              2020.0002956196147
+                            ],
+                            "value": 2019.9970489964985
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000017",
+                    "node_attrs": {
+                      "div": 3.2118466975611307e-13,
+                      "num_date": {
+                        "confidence": [
+                          2019.9735582949504,
+                          2019.99769561967
+                        ],
+                        "value": 2019.9907118507592
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000013",
+                "node_attrs": {
+                  "div": 2.408885023170848e-13,
+                  "num_date": {
+                    "confidence": [
+                      2019.9669739530605,
+                      2019.9967820989757
+                    ],
+                    "value": 2019.9769962773942
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 1.6059233487805653e-13,
+              "num_date": {
+                "confidence": [
+                  2019.9610904626836,
+                  2019.9884434968474
+                ],
+                "value": 2019.9765691274943
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF8: L84S"
+              },
+              "mutations": {
+                "ORF8": [
+                  "L84S"
+                ],
+                "nuc": [
+                  "C8782T",
+                  "T28144C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "S: Y28N; orf1ab: L3606F"
+                  },
+                  "mutations": {
+                    "S": [
+                      "Y28N"
+                    ],
+                    "nuc": [
+                      "C75A",
+                      "G11083C",
+                      "T21644A"
+                    ],
+                    "orf1ab": [
+                      "L3606F"
+                    ]
+                  }
+                },
+                "name": "SARS-CoV-2/Yunnan-01/human/2020/CHN",
+                "node_attrs": {
+                  "Country": {
+                    "value": "China"
+                  },
+                  "Data_source": {
+                    "value": "GenBank"
+                  },
+                  "Division": {
+                    "value": "Yunnan"
+                  },
+                  "Host": {
+                    "value": "Homo sapiens"
+                  },
+                  "ID": {
+                    "value": "MT049951"
+                  },
+                  "Location": {
+                    "value": "Yunnan"
+                  },
+                  "QC": {
+                    "value": "0/0/5/0/NO"
+                  },
+                  "Submit_Lab": {
+                    "value": "Yunnan Center for Disease Control Prevention, Institute for Acute Communicable Disease Prevention and Control"
+                  },
+                  "Submit_date": {
+                    "value": "2020-02-09"
+                  },
+                  "div": 4.999877029103096,
+                  "num_date": {
+                    "confidence": [
+                      2020.045081967213,
+                      2020.045081967213
+                    ],
+                    "value": 2020.045081967213
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF8: V62L"
+                  },
+                  "mutations": {
+                    "ORF8": [
+                      "V62L"
+                    ],
+                    "nuc": [
+                      "C24034T",
+                      "T26729C",
+                      "G28077C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "orf1ab: S428N"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "G1548A",
+                          "A28792T"
+                        ],
+                        "orf1ab": [
+                          "S428N"
+                        ]
+                      }
+                    },
+                    "name": "2019-nCoV/USA-CA1/2020",
+                    "node_attrs": {
+                      "Country": {
+                        "value": "United States"
+                      },
+                      "Data_source": {
+                        "value": "GenBank"
+                      },
+                      "Division": {
+                        "value": "California"
+                      },
+                      "Host": {
+                        "value": "Homo sapiens"
+                      },
+                      "ID": {
+                        "value": "MN994467"
+                      },
+                      "Location": {
+                        "value": "Los Angeles"
+                      },
+                      "QC": {
+                        "value": "0/0/7/0/NO"
+                      },
+                      "Relative_ID": {
+                        "value": "EPI_ISL_406034"
+                      },
+                      "Sample_Collect_Lab": {
+                        "value": "California Department of Public Health"
+                      },
+                      "Submit_Lab": {
+                        "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                      },
+                      "Submit_date": {
+                        "value": "2020-01-27"
+                      },
+                      "div": 6.999511238764244,
+                      "num_date": {
+                        "confidence": [
+                          2020.061475409836,
+                          2020.061475409836
+                        ],
+                        "value": 2020.061475409836
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "orf1ab: D75E, P971L"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "T490A",
+                          "C3177T"
+                        ],
+                        "orf1ab": [
+                          "D75E",
+                          "P971L"
+                        ]
+                      }
+                    },
+                    "name": "SARS-CoV-2/IL2/human/2020/USA",
+                    "node_attrs": {
+                      "Country": {
+                        "value": "United States"
+                      },
+                      "Data_source": {
+                        "value": "GenBank"
+                      },
+                      "Division": {
+                        "value": "Illinois"
+                      },
+                      "Host": {
+                        "value": "Homo sapiens"
+                      },
+                      "ID": {
+                        "value": "MT044257"
+                      },
+                      "Location": {
+                        "value": "Illinois"
+                      },
+                      "QC": {
+                        "value": "0/0/7/0/NO"
+                      },
+                      "Relative_ID": {
+                        "value": "EPI_ISL_410045"
+                      },
+                      "Sample_Collect_Lab": {
+                        "value": "IL Department of Public Health Chicago Laboratory"
+                      },
+                      "Submit_Lab": {
+                        "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                      },
+                      "Submit_date": {
+                        "value": "2020-02-11"
+                      },
+                      "div": 6.999546873468573,
+                      "num_date": {
+                        "confidence": [
+                          2020.0751366120219,
+                          2020.0751366120219
+                        ],
+                        "value": 2020.0751366120219
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 4.999687960929269,
+                  "num_date": {
+                    "confidence": [
+                      2020.002541418377,
+                      2020.0543072184657
+                    ],
+                    "value": 2020.035866454983
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "orf1ab: L1599F"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "T4402C",
+                      "G5062T"
+                    ],
+                    "orf1ab": [
+                      "L1599F"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "N: D343V"
+                      },
+                      "mutations": {
+                        "N": [
+                          "D343V"
+                        ],
+                        "nuc": [
+                          "A29301T"
+                        ]
+                      }
+                    },
+                    "name": "SARS-CoV-2/233/human/2020/CHN",
+                    "node_attrs": {
+                      "Country": {
+                        "value": "China"
+                      },
+                      "Data_source": {
+                        "value": "GenBank"
+                      },
+                      "Division": {
+                        "value": "Beijing"
+                      },
+                      "Host": {
+                        "value": "Homo sapiens"
+                      },
+                      "ID": {
+                        "value": "MT135043"
+                      },
+                      "Location": {
+                        "value": "Beijing"
+                      },
+                      "QC": {
+                        "value": "0/0/5/0/NO"
+                      },
+                      "Submit_Lab": {
+                        "value": "Infectious Disease Control Center, Center for Disease Control and Prevention of PLA"
+                      },
+                      "Submit_date": {
+                        "value": "2020-03-02"
+                      },
+                      "div": 4.999545236553677,
+                      "num_date": {
+                        "confidence": [
+                          2020.0751366120219,
+                          2020.0751366120219
+                        ],
+                        "value": 2020.0751366120219
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "SARS-CoV-2/235/human/2020/CHN",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "China"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Beijing"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "MT135044"
+                          },
+                          "Location": {
+                            "value": "Beijing"
+                          },
+                          "QC": {
+                            "value": "0/0/4/0/NO"
+                          },
+                          "Submit_Lab": {
+                            "value": "Infectious Disease Control Center, Center for Disease Control and Prevention of PLA"
+                          },
+                          "Submit_date": {
+                            "value": "2020-03-02"
+                          },
+                          "div": 3.9996609546433533,
+                          "num_date": {
+                            "confidence": [
+                              2020.0751366120219,
+                              2020.0751366120219
+                            ],
+                            "value": 2020.0751366120219
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "SARS-CoV-2/105/human/2020/CHN",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "China"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Beijing"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT135041"
+                              },
+                              "Location": {
+                                "value": "Beijing"
+                              },
+                              "QC": {
+                                "value": "0/0/4/0/NO"
+                              },
+                              "Submit_Lab": {
+                                "value": "Infectious Disease Control Center, Center for Disease Control and Prevention of PLA"
+                              },
+                              "Submit_date": {
+                                "value": "2020-03-02"
+                              },
+                              "div": 3.9996609546434336,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0696721311476,
+                                  2020.0696721311476
+                                ],
+                                "value": 2020.0696721311476
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "SARS-CoV-2/231/human/2020/CHN",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "China"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Beijing"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT135042"
+                              },
+                              "Location": {
+                                "value": "Beijing"
+                              },
+                              "QC": {
+                                "value": "0/0/4/0/NO"
+                              },
+                              "Submit_Lab": {
+                                "value": "Infectious Disease Control Center, Center for Disease Control and Prevention of PLA"
+                              },
+                              "Submit_date": {
+                                "value": "2020-03-02"
+                              },
+                              "div": 3.9996609546434336,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0751366120219,
+                                  2020.0751366120219
+                                ],
+                                "value": 2020.0751366120219
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000024",
+                        "node_attrs": {
+                          "div": 3.9996609546433533,
+                          "num_date": {
+                            "confidence": [
+                              2020.053399307495,
+                              2020.0696721311476
+                            ],
+                            "value": 2020.066126162666
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000023",
+                    "node_attrs": {
+                      "div": 3.999660954643273,
+                      "num_date": {
+                        "confidence": [
+                          2020.0369133843558,
+                          2020.0667235692993
+                        ],
+                        "value": 2020.0550910381178
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 3.9996609546431925,
+                  "num_date": {
+                    "confidence": [
+                      2020.0071784428228,
+                      2020.063098319581
+                    ],
+                    "value": 2020.0532109485375
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C29095T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF8: T11I; orf1ab: D6304A"
+                      },
+                      "mutations": {
+                        "ORF8": [
+                          "T11I"
+                        ],
+                        "nuc": [
+                          "T18603C",
+                          "T18975A",
+                          "A19175C",
+                          "C27925T"
+                        ],
+                        "orf1ab": [
+                          "D6304A"
+                        ]
+                      }
+                    },
+                    "name": "2019-nCoV/USA-TX1/2020",
+                    "node_attrs": {
+                      "Country": {
+                        "value": "United States"
+                      },
+                      "Data_source": {
+                        "value": "GenBank"
+                      },
+                      "Division": {
+                        "value": "Texas"
+                      },
+                      "Host": {
+                        "value": "Homo sapiens"
+                      },
+                      "ID": {
+                        "value": "MT106054"
+                      },
+                      "Location": {
+                        "value": "Texas"
+                      },
+                      "QC": {
+                        "value": "0/0/7/0/NO"
+                      },
+                      "Relative_ID": {
+                        "value": "EPI_ISL_411956"
+                      },
+                      "Sample_Collect_Lab": {
+                        "value": "Texas Department of State Health Services"
+                      },
+                      "Submit_Lab": {
+                        "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                      },
+                      "Submit_date": {
+                        "value": "2020-02-22"
+                      },
+                      "div": 6.999750955043869,
+                      "num_date": {
+                        "confidence": [
+                          2020.113387978142,
+                          2020.113387978142
+                        ],
+                        "value": 2020.113387978142
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "orf1ab: L3606F"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "G11083T"
+                        ],
+                        "orf1ab": [
+                          "L3606F"
+                        ]
+                      }
+                    },
+                    "name": "2019-nCoV/USA-AZ1/2020",
+                    "node_attrs": {
+                      "Country": {
+                        "value": "United States"
+                      },
+                      "Data_source": {
+                        "value": "GenBank"
+                      },
+                      "Division": {
+                        "value": "Arizona"
+                      },
+                      "Host": {
+                        "value": "Homo sapiens"
+                      },
+                      "ID": {
+                        "value": "MN997409"
+                      },
+                      "Location": {
+                        "value": "Phoenix"
+                      },
+                      "QC": {
+                        "value": "0/0/4/0/NO"
+                      },
+                      "Relative_ID": {
+                        "value": "EPI_ISL_406223"
+                      },
+                      "Sample_Collect_Lab": {
+                        "value": "Arizona Department of Health Services"
+                      },
+                      "Submit_Lab": {
+                        "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                      },
+                      "Submit_date": {
+                        "value": "2020-01-28"
+                      },
+                      "div": 3.999657360446837,
+                      "num_date": {
+                        "confidence": [
+                          2020.058743169399,
+                          2020.058743169399
+                        ],
+                        "value": 2020.058743169399
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C2662T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "orf1ab: A1176V"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C3792T"
+                            ],
+                            "orf1ab": [
+                              "A1176V"
+                            ]
+                          }
+                        },
+                        "name": "2019-nCoV/Japan/TY/WK-012/2020",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "Japan"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Tokyo"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "LC522973"
+                          },
+                          "Location": {
+                            "value": "Tokyo"
+                          },
+                          "QC": {
+                            "value": "0/0/5/0/NO"
+                          },
+                          "Relative_ID": {
+                            "value": "EPI_ISL_408665"
+                          },
+                          "Sample_Collect_Lab": {
+                            "value": "Dept. of Virology III, National Institute of Infectious Diseases"
+                          },
+                          "Submit_Lab": {
+                            "value": "Pathogen Genomics Center, National Institute of Infectious Diseases"
+                          },
+                          "Submit_date": {
+                            "value": "2020-02-10"
+                          },
+                          "div": 4.999601425399736,
+                          "num_date": {
+                            "confidence": [
+                              2020.077868852459,
+                              2020.077868852459
+                            ],
+                            "value": 2020.077868852459
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "2019-nCoV/Japan/TY/WK-501/2020",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "Japan"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Tokyo"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "LC522974"
+                          },
+                          "Location": {
+                            "value": "Tokyo"
+                          },
+                          "QC": {
+                            "value": "0/0/4/0/NO"
+                          },
+                          "Relative_ID": {
+                            "value": "EPI_ISL_408666"
+                          },
+                          "Sample_Collect_Lab": {
+                            "value": "Dept. of Virology III, National Institute of Infectious Diseases"
+                          },
+                          "Submit_Lab": {
+                            "value": "Pathogen Genomics Center, National Institute of Infectious Diseases"
+                          },
+                          "Submit_date": {
+                            "value": "2020-02-10"
+                          },
+                          "div": 3.9996590573990107,
+                          "num_date": {
+                            "confidence": [
+                              2020.0833333333333,
+                              2020.0833333333333
+                            ],
+                            "value": 2020.0833333333333
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G29705T"
+                            ]
+                          }
+                        },
+                        "name": "2019-nCoV/Japan/TY/WK-521/2020",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "Japan"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Tokyo"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "LC522975"
+                          },
+                          "Location": {
+                            "value": "Tokyo"
+                          },
+                          "QC": {
+                            "value": "0/0/5/0/NO"
+                          },
+                          "Relative_ID": {
+                            "value": "EPI_ISL_408667"
+                          },
+                          "Sample_Collect_Lab": {
+                            "value": "Dept. of Virology III, National Institute of Infectious Diseases"
+                          },
+                          "Submit_Lab": {
+                            "value": "Pathogen Genomics Center, National Institute of Infectious Diseases"
+                          },
+                          "Submit_date": {
+                            "value": "2020-02-10"
+                          },
+                          "div": 4.999601615047377,
+                          "num_date": {
+                            "confidence": [
+                              2020.0833333333333,
+                              2020.0833333333333
+                            ],
+                            "value": 2020.0833333333333
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 3.9996590573989304,
+                      "num_date": {
+                        "confidence": [
+                          2020.0215862709983,
+                          2020.0734547087632
+                        ],
+                        "value": 2020.0530129946278
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "div": 2.9997354050697207,
+                  "num_date": {
+                    "confidence": [
+                      2019.988693743105,
+                      2020.0241188898067
+                    ],
+                    "value": 2019.9966052275665
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "N: S202N"
+                      },
+                      "mutations": {
+                        "N": [
+                          "S202N"
+                        ],
+                        "nuc": [
+                          "G28878A",
+                          "G29742A"
+                        ]
+                      }
+                    },
+                    "name": "2019-nCoV/USA-CA7/2020",
+                    "node_attrs": {
+                      "Country": {
+                        "value": "United States"
+                      },
+                      "Data_source": {
+                        "value": "GenBank"
+                      },
+                      "Division": {
+                        "value": "California"
+                      },
+                      "Host": {
+                        "value": "Homo sapiens"
+                      },
+                      "ID": {
+                        "value": "MT106052"
+                      },
+                      "Location": {
+                        "value": "California"
+                      },
+                      "QC": {
+                        "value": "0/0/4/0/NO"
+                      },
+                      "Relative_ID": {
+                        "value": "EPI_ISL_411954"
+                      },
+                      "Sample_Collect_Lab": {
+                        "value": "California Department of Public Health"
+                      },
+                      "Submit_Lab": {
+                        "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                      },
+                      "Submit_date": {
+                        "value": "2020-02-22"
+                      },
+                      "div": 3.999690200617268,
+                      "num_date": {
+                        "confidence": [
+                          2020.0997267759562,
+                          2020.0997267759562
+                        ],
+                        "value": 2020.0997267759562
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "Taiwan/NTU01/2020",
+                        "node_attrs": {
+                          "Country": {
+                            "value": "China"
+                          },
+                          "Data_source": {
+                            "value": "GenBank"
+                          },
+                          "Division": {
+                            "value": "Taiwan"
+                          },
+                          "Host": {
+                            "value": "Homo sapiens"
+                          },
+                          "ID": {
+                            "value": "MT066175"
+                          },
+                          "Location": {
+                            "value": "Taipei"
+                          },
+                          "QC": {
+                            "value": "0/0/2/0/NO"
+                          },
+                          "Relative_ID": {
+                            "value": "EPI_ISL_408489"
+                          },
+                          "Sample_Collect_Lab": {
+                            "value": "National Institute for Viral Disease Control & Prevention, CCDC"
+                          },
+                          "Submit_Lab": {
+                            "value": "National Institute for Viral Disease Control & Prevention, CCDC"
+                          },
+                          "Submit_date": {
+                            "value": "2020-02-09"
+                          },
+                          "div": 1.9998309173244506,
+                          "num_date": {
+                            "confidence": [
+                              2020.0860655737704,
+                              2020.0860655737704
+                            ],
+                            "value": 2020.0860655737704
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C18060T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: T1840I, P5828L, Y5865C"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C5784T",
+                                  "C17747T",
+                                  "A17858G"
+                                ],
+                                "orf1ab": [
+                                  "T1840I",
+                                  "P5828L",
+                                  "Y5865C"
+                                ]
+                              }
+                            },
+                            "name": "BetaCoV/USA/WA2/2020",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "United States"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Washington"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MT152824"
+                              },
+                              "Location": {
+                                "value": "Snohomish County"
+                              },
+                              "QC": {
+                                "value": "0/0/6/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_412970"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "Washington State Department of Health"
+                              },
+                              "Submit_Lab": {
+                                "value": "Seattle Flu Study"
+                              },
+                              "Submit_date": {
+                                "value": "2020-03-01"
+                              },
+                              "div": 5.999647785754503,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1489071038252,
+                                  2020.1489071038252
+                                ],
+                                "value": 2020.1489071038252
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "2019-nCoV/USA-WA1/2020",
+                            "node_attrs": {
+                              "Country": {
+                                "value": "United States"
+                              },
+                              "Data_source": {
+                                "value": "GenBank"
+                              },
+                              "Division": {
+                                "value": "Washington"
+                              },
+                              "Host": {
+                                "value": "Homo sapiens"
+                              },
+                              "ID": {
+                                "value": "MN985325"
+                              },
+                              "Location": {
+                                "value": "Snohomish County"
+                              },
+                              "QC": {
+                                "value": "0/0/3/0/NO"
+                              },
+                              "Relative_ID": {
+                                "value": "EPI_ISL_404895"
+                              },
+                              "Sample_Collect_Lab": {
+                                "value": "Providence Regional Medical Center"
+                              },
+                              "Submit_Lab": {
+                                "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                              },
+                              "Submit_date": {
+                                "value": "2020-01-24"
+                              },
+                              "div": 2.9997354050698815,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0505464480875,
+                                  2020.0505464480875
+                                ],
+                                "value": 2020.0505464480875
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "BetaCoV/USA/WA1-F6/2020",
+                                "node_attrs": {
+                                  "Country": {
+                                    "value": "United States"
+                                  },
+                                  "Data_source": {
+                                    "value": "GenBank"
+                                  },
+                                  "Division": {
+                                    "value": "Washington"
+                                  },
+                                  "Host": {
+                                    "value": "Homo sapiens"
+                                  },
+                                  "ID": {
+                                    "value": "MT020881"
+                                  },
+                                  "Location": {
+                                    "value": "Washington"
+                                  },
+                                  "QC": {
+                                    "value": "0/0/3/0/NO"
+                                  },
+                                  "Relative_ID": {
+                                    "value": "EPI_ISL_407215"
+                                  },
+                                  "Sample_Collect_Lab": {
+                                    "value": "WA State Department of Health"
+                                  },
+                                  "Submit_Lab": {
+                                    "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                                  },
+                                  "Submit_date": {
+                                    "value": "2020-02-04"
+                                  },
+                                  "div": 2.9997354050698815,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0669398907103,
+                                      2020.0669398907103
+                                    ],
+                                    "value": 2020.0669398907103
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "BetaCoV/USA/WA1-A12/2020",
+                                "node_attrs": {
+                                  "Country": {
+                                    "value": "United States"
+                                  },
+                                  "Data_source": {
+                                    "value": "GenBank"
+                                  },
+                                  "Division": {
+                                    "value": "Washington"
+                                  },
+                                  "Host": {
+                                    "value": "Homo sapiens"
+                                  },
+                                  "ID": {
+                                    "value": "MT020880"
+                                  },
+                                  "Location": {
+                                    "value": "Washington"
+                                  },
+                                  "QC": {
+                                    "value": "0/0/3/0/NO"
+                                  },
+                                  "Relative_ID": {
+                                    "value": "EPI_ISL_407214"
+                                  },
+                                  "Sample_Collect_Lab": {
+                                    "value": "WA State Department of Health"
+                                  },
+                                  "Submit_Lab": {
+                                    "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention"
+                                  },
+                                  "Submit_date": {
+                                    "value": "2020-02-04"
+                                  },
+                                  "div": 2.9997354050698815,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0669398907103,
+                                      2020.0669398907103
+                                    ],
+                                    "value": 2020.0669398907103
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000030",
+                            "node_attrs": {
+                              "div": 2.9997354050698815,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0464599710829,
+                                  2020.0669398907103
+                                ],
+                                "value": 2020.0669398907103
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000016",
+                        "node_attrs": {
+                          "div": 2.9997354050698815,
+                          "num_date": {
+                            "confidence": [
+                              2020.013757593612,
+                              2020.0505464480875
+                            ],
+                            "value": 2020.0505464480875
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000028",
+                    "node_attrs": {
+                      "div": 1.9998309173243702,
+                      "num_date": {
+                        "confidence": [
+                          2019.9898399849733,
+                          2020.027768764008
+                        ],
+                        "value": 2019.9966148969647
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000027",
+                "node_attrs": {
+                  "div": 1.9998309173242899,
+                  "num_date": {
+                    "confidence": [
+                      2019.9878024804639,
+                      2020.0130470743225
+                    ],
+                    "value": 2019.9958211162673
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 1.9998309173242095,
+              "num_date": {
+                "confidence": [
+                  2019.9775130351,
+                  2019.999843477528
+                ],
+                "value": 2019.9949415793926
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "div": 8.029616743902827e-14,
+          "num_date": {
+            "confidence": [
+              2019.9536484915127,
+              2019.9860109766796
+            ],
+            "value": 2019.9632776455474
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000001",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2019.6528381941366,
+          2019.9721767179644
+        ],
+        "value": 2019.9620572587905
+      }
+    }
+  },
+  "version": "v2"
+}
